@@ -75,8 +75,8 @@ export default function Settings() {
           {/* Live preview */}
           <View style={styles.previewBox}>
             <PreviewRow label="Flexible budget" value={fmt(flex)} highlight={flex > 0} />
-            <PreviewRow label="Planned expenses (fixed)"  value={fmt(27510)} />
-            <PreviewRow label="Buffer / cushion"          value={fmt(Math.max(0, flex - 27510))} highlight />
+            <PreviewRow label="Planned expenses (fixed)"  value={fmt(28939)} />
+            <PreviewRow label="Buffer / cushion"          value={fmt(Math.max(0, flex - 28939))} highlight />
           </View>
         </View>
 
@@ -152,8 +152,8 @@ export default function Settings() {
         <View style={styles.card}>
           <BulletPoint text="Kameti pays out in April — your main wedding fund." />
           <BulletPoint text="Bonus (₨0–20k) is irregular — save it, never count on it." />
-          <BulletPoint text="Food is your largest variable cost at ₨13,950/month." />
-          <BulletPoint text="Your buffer of ₨2,490/month should not be spent — let it accumulate." />
+          <BulletPoint text="Food is your largest variable cost at ₨13,500/month." />
+          <BulletPoint text="Your buffer of ₨1,061/month should not be spent — let it accumulate." />
         </View>
 
       </ScrollView>

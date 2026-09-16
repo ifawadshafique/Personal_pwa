@@ -131,7 +131,7 @@ export default function Analytics() {
             icon="🎁"
           />
           <Reminder
-            text="Food is 47% of your flexible budget — first place to cut if you need breathing room."
+            text="Food is 45% of your flexible budget — first place to cut if you need breathing room."
             icon="🍽️"
           />
           <Reminder

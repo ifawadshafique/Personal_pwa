@@ -10,14 +10,18 @@ export function useBudget() {
 
 // Your real monthly budget categories with exact allocations
 const DEFAULT_CATEGORIES = [
-  { id: 'cat-food',     name: 'Food',         color: '#FF6B6B', budget: 13950 },
-  { id: 'cat-transport',name: 'Transport',    color: '#FFD93D', budget: 3560  },
-  { id: 'cat-rent',     name: 'Rent',         color: '#6BCB77', budget: 3000  },
+  { id: 'cat-food',     name: 'Food',         color: '#FF6B6B', budget: 13500 },
+  { id: 'cat-transport',name: 'Transport',    color: '#FFD93D', budget: 3800  },
+  { id: 'cat-rent',     name: 'Rent',         color: '#6BCB77', budget: 2500  },
   { id: 'cat-books',    name: 'Books',        color: '#4D96FF', budget: 3000  },
-  { id: 'cat-personal', name: 'Personal',     color: '#C77DFF', budget: 1750  },
-  { id: 'cat-utilities',name: 'Utilities',    color: '#FFA500', budget: 1000  },
-  { id: 'cat-mobile',   name: 'Mobile',       color: '#00C9A7', budget: 1000  },
+  { id: 'cat-personal', name: 'Personal',     color: '#C77DFF', budget: 700   },
+  { id: 'cat-utilities',name: 'Utilities',    color: '#FFA500', budget: 700   },
+  { id: 'cat-mobile',   name: 'Mobile',       color: '#00C9A7', budget: 1250  },
   { id: 'cat-laundry',  name: 'Laundry',      color: '#8ea1a3', budget: 250   },
+  { id: 'cat-gdrive',   name: 'Google Drive', color: '#4285F4', budget: 189   },
+  { id: 'cat-gemini',   name: 'Gemini',       color: '#8E24AA', budget: 550   },
+  { id: 'cat-health',   name: 'Health',       color: '#34D399', budget: 1000  },
+  { id: 'cat-emergency',name: 'Emergency',    color: '#F87171', budget: 1500  },
 ];
 
 // Your real salary split

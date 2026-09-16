@@ -14,7 +14,7 @@
       "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#0F2426",
-        "foregroundImage": "./assets/adaptive-icon.png"
+        "foregroundImage": "./assets/android-icon-foreground.png"
       },
       "permissions": [
         "android.permission.USE_BIOMETRIC",
@@ -25,7 +25,8 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-local-authentication"
+      "expo-local-authentication",
+      "expo-font"
     ],
     "extra": {
       "eas": {
